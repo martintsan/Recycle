@@ -1,2 +1,2 @@
 # Recycle
->> Best Wechat miniapp for recycle people
+> Best Wechat miniapp for recycle people
