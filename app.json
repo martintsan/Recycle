@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/Profile/profile",
+    "pages/Learning/learning",
+    "pages/Recycle/recycle"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/Learning/learning",
+        "iconPath": "images/idea_outline.png",
+        "selectedIconPath": "images/idea.png",
+        "text": "Learning"
+      },
+      {
+        "pagePath": "pages/Recycle/recycle",
+        "iconPath": "images/recycle_outline.png",
+        "selectedIconPath": "images/recycle.png",
+        "text": "Find Recycle"
+      },
+      {
+        "pagePath": "pages/Profile/profile",
+        "iconPath": "images/me_outline.png",
+        "selectedIconPath": "images/me.png",
+        "text": "Me"
+      }
+    ]
+  }
+}
