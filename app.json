@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/Profile/profile",
     "pages/Recycle/recycle",
     "pages/Learning/learning",
     "pages/Profile/profile",

@@ -1,2 +1,28 @@
-<!--pages/Profile/profile.wxml-->
-<text>pages/Profile/profile.wxml</text>
+
+<!-- User profile section & score -->
+
+<view class="usr-profile grey-color">
+  <image class="profile-img" src="{{ avatarUrl }}"></image>
+  <text class='bold'>{{ nickName }},</text>
+  <text>you have just earned 350 G-points!</text>
+</view>
+
+<!-- statistics  -->
+<progress percent="60" stroke-width="12" color="#1296db" active />
+<view class="usr-profile grey-color">
+  <view class="stats">
+    <button class="history btn-treehouse">History</button>
+    <view class='level'>
+      <text class="bold">Level 6</text>
+      <text>3200 points</text>
+    </view>
+  </view>
+</view>
+
+<!-- Leaderboard  -->
+
+<view class="leader grey-color usr-profile">
+  
+  <text class='bold'>See your friends who have recycled this month!</text>
+
+</view>

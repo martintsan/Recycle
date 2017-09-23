@@ -1,1 +1,54 @@
-/* pages/Profile/profile.wxss */
+/* Global Styles  */
+progress {
+  margin: 10px 20px;
+}
+
+/* User Profile Section  */
+.usr-profile {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 5px 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.profile-img {
+  width: 120px;
+  height: 120px;
+  margin: 30px auto;
+  border-radius: 50%;
+}
+
+.stats {
+  margin: 0 15px;
+  float: left;
+}
+.stats .level {
+  float:left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.stats .history {
+  float: right;
+}
+.bold {
+  font-weight: bold;
+}
+.grey-color {
+  color: #939393;
+}
+.btn-treehouse {
+  color: white; 
+  width: 80px;
+  padding: 0 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #939393; 
+  transition: background 0.3s ease;
+  float: right;
+  font-size: 14px;
+}
+.twoboxes {
+  display: flex;
+  flex-direction: row;
+}
