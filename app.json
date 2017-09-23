@@ -2,13 +2,14 @@
   "pages": [
     "pages/Recycle/recycle",
     "pages/Learning/learning",
-    "pages/Profile/profile"
+    "pages/Profile/profile",
+    "pages/RecycleDetail/recycle-detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "Recycle China",
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "list": [

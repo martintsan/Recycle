@@ -1,4 +1,6 @@
 /**app.wxss**/
+@import 'utils/weui.wxss';
+
 .container {
   height: 100%;
   display: flex;
@@ -8,3 +10,7 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.pull-right {
+  float: right;
+}

@@ -1,4 +1,4 @@
-<view class="recycle">
+<view class="page recycle">
   <map 
   latitude="{{location.latitude}}"
   longitude="{{location.longitude}}"
@@ -10,7 +10,13 @@
   class="recycle-map"/>
   <view class='recycle-item' style='display: {{currentItem.show ? "flex": "none"}}; height: {{mapHeight/2}}px; top: {{mapHeight/2}}px;'>
     <image class="picture" src='{{currentItem.picture}}'></image>
-    <view class='content'>{{currentItem.name}}</view>
-    <view class='content hours'>Hours: {{currentItem.hours}} Tel: {{currentItem.contact}}</view>
+    <view class='content weui-flex'>
+      <text >{{currentItem.name}}</text>
+      <text class='hours'>Hours: {{currentItem.hours}} Tel: {{currentItem.contact}}
+      </text>
+    </view>
+    <view class='detail'>
+      <image src='../../images/right.png'></image>
+    </view>
   </view>
 </view>
