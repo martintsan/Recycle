@@ -1,2 +1,16 @@
-<!--pages/Recycle/recycle.wxml-->
-<text>pages/Recycle/recycle.wxml</text>
+<view class="recycle">
+  <map 
+  latitude="{{location.latitude}}"
+  longitude="{{location.longitude}}"
+  markers='{{location.markers}}'
+  bindmarkertap='selectItem'
+  bindtap="tapMap"
+  scale="16" 
+  style="height: {{mapHeight}}px;"
+  class="recycle-map"/>
+  <view class='recycle-item' style='display: {{currentItem.show ? "flex": "none"}}; height: {{mapHeight/2}}px; top: {{mapHeight/2}}px;'>
+    <image class="picture" src='{{currentItem.picture}}'></image>
+    <view class='content'>{{currentItem.name}}</view>
+    <view class='content hours'>Hours: {{currentItem.hours}} Tel: {{currentItem.contact}}</view>
+  </view>
+</view>

@@ -1,3 +1,5 @@
+const couchdbUrl = "http://cdb.rubinek.com/"
+
 const formatTime = date => {
   const year = date.getFullYear()
   const month = date.getMonth() + 1
@@ -15,5 +17,6 @@ const formatNumber = n => {
 }
 
 module.exports = {
+  dbUrl: couchdbUrl,
   formatTime: formatTime
 }
