@@ -11,15 +11,24 @@ progress {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
+
+/* -------- images ------- */
 .profile-img {
-  width: 120px;
-  height: 120px;
-  margin: 30px auto;
+  width: 140px;
+  height: 140px;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+.friend-img {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
   border-radius: 50%;
 }
 
+
 .stats {
-  margin: 0 15px;
+  margin: 0 20px;
   float: left;
 }
 .stats .level {
@@ -33,6 +42,13 @@ progress {
 }
 .bold {
   font-weight: bold;
+}
+.leader {
+  margin: 10px 20px;
+  float:left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 .grey-color {
   color: #939393;
