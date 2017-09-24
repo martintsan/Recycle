@@ -5,6 +5,6 @@
     <text>Contact: {{recycler.contact}}</text>
     <text>Hours: {{recycler.hours}}</text>
     <text>Needs: {{recycler.needs}}</text>
-    <button class="message">Leave a message</button>
+    <button class="message">Follow</button>
   </view>
 </view>

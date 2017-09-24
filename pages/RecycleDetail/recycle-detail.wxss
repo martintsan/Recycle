@@ -15,5 +15,7 @@
 }
 
 .recycle-detail .message {
+  background-color: #1296db;
+  color: white;
   margin-top: 20px;
 }
