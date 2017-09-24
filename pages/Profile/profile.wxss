@@ -64,6 +64,11 @@ progress {
   float: right;
   font-size: 14px;
 }
+.btn-like {
+  color: white; 
+  width: 24px;
+  height: 24px;
+}
 .twoboxes {
   display: flex;
   flex-direction: row;

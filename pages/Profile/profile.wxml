@@ -29,16 +29,14 @@
     <view class="usr-profile grey-color">
       <image class="friend-img" src="{{ avatarUrl }}"></image>
       <text class='bold'>{{ nickName }}</text>
-      <text>You have just earned 350 G-points!</text>
    
     <view class="stats">
-      <button class="history btn-treehouse">History</button>
         <view class='level'>
           <text class="bold">Level 6</text>
           <text>3200 points</text>
         </view>
     </view>
     </view>
-  
+<button><image src="http://owrocxzui.bkt.clouddn.com/like%20outline.png" width="24px"></image></button>
 
 </view>
