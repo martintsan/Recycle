@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/learning/learning_home/learning_home",
+    "pages/learning/learning_pages/learning_cardboard/learning_cardboard",
+    "pages/learning/learning_pages/learning_plastics/learning_plastics",
+    "pages/learning/learning_pages/learning_basics/learning_basics",
+    "pages/Profile/profile",
+    "pages/Recycle/recycle",
+    "pages/RecycleDetail/recycle-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "Recycle China",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/learning/learning_home/learning_home",
+        "iconPath": "images/idea_outline.png",
+        "selectedIconPath": "images/idea.png",
+        "text": "Learning"
+      },
+      {
+        "pagePath": "pages/Recycle/recycle",
+        "iconPath": "images/recycle_outline.png",
+        "selectedIconPath": "images/recycle.png",
+        "text": "Find Recycle"
+      },
+      {
+        "pagePath": "pages/Profile/profile",
+        "iconPath": "images/me_outline.png",
+        "selectedIconPath": "images/me.png",
+        "text": "Me"
+      }
+    ]
+  }
+}

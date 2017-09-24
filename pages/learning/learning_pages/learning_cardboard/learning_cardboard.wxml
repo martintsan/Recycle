@@ -1,0 +1,22 @@
+<!--pages/learning/learning_pages/learning_basics/learning_basics.wxml-->
+
+<!-- Header -->
+<view class='header-image' >
+  <image class='thumbnail-sign' src='../../../../../images/cardboard_sign.png'></image>
+</view>
+
+<view class='content'>
+
+  <text class='title'>Recycling Cardboard
+  </text>
+
+  <text>
+    Paper and cardboard are presently the informal system's materials of highest volume. Cardboard is divided into multiple subtypes, but two of the most common are pa erned and yellow cardboard, the former has color print on the surface, while the la er is plain with no print.
+  </text>
+
+  <text>
+Informal collectors remove tape and other adhesive material from the edges, package the material into bundles, and then send it to large collection centres, recycling facilities, and paper-making factories. These processing centres sort cardboard by paper grade, shred the material, and immerse it in a chemical mixture to reduce it to pulp. A er  ve days, it is considered a  nished product.
+  </text>
+
+  
+</view>

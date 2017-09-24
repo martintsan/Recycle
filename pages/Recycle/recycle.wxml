@@ -1,0 +1,22 @@
+<view class="page recycle">
+  <map 
+  latitude="{{location.latitude}}"
+  longitude="{{location.longitude}}"
+  markers='{{location.markers}}'
+  bindmarkertap='selectItem'
+  bindtap="tapMap"
+  scale="16" 
+  style="height: {{mapHeight}}px;"
+  class="recycle-map"/>
+  <view class='recycle-item' style='display: {{currentItem.show ? "flex": "none"}}; height: {{mapHeight/2}}px; top: {{mapHeight/2}}px;'>
+    <image class="picture" src='{{currentItem.picture}}'></image>
+    <view class='content weui-flex'>
+      <text >{{currentItem.name}}</text>
+      <text class='hours'>Hours: {{currentItem.hours}} Tel: {{currentItem.contact}}
+      </text>
+    </view>
+    <view class='detail'>
+      <navigator url='/pages/RecycleDetail/recycle-detail?recycler={{currentItem._id}}'><image src='../../images/right.png'></image></navigator>
+    </view>
+  </view>
+</view>

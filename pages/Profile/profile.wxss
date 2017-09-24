@@ -1,0 +1,97 @@
+/* Global Styles  */
+progress {
+  margin: 10px 20px;
+}
+
+/* User Profile Section  */
+.usr-profile {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 5px 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+/* -------- images ------- */
+.profile-img {
+  width: 140px;
+  height: 140px;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+.friend-img {
+  width: 70px;
+  height: 70px;
+  margin: 10px 10px 10px 0;
+  border-radius: 50%;
+}
+
+
+.stats {
+  margin: 0 20px;
+  float: left;
+}
+.stats .level {
+  float:left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.stats .history {
+  float: right;
+}
+.bold {
+  font-weight: bold;
+}
+.leader {
+  margin: 10px 20px;
+  float:left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.grey-color {
+  color: #939393;
+}
+.btn-treehouse {
+  color: white; 
+  width: 80px;
+  padding: 0 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #939393; 
+  transition: background 0.3s ease;
+  float: right;
+  font-size: 14px;
+}
+
+.twoboxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.list {
+  float:left;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.profile-detail {
+  font-size: 14px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-detail .bold {
+  font-size: 16px;
+}
+
+.like {
+  width: 20px;
+  height: 20px;
+  text-align: right;
+  margin: 30px 0 30px 30px;
+}
