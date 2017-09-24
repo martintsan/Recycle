@@ -1,2 +1,10 @@
-<!--pages/RecycleDetail/recycle-detail.wxml-->
-<text>pages/RecycleDetail/recycle-detail.wxml</text>
+<view class="recycle-detail">
+  <image lazy-load="false" class="picture" src="{{recycler.picture}}"></image>
+  <view class="content">
+    <text>Name: {{recycler.name}}</text>
+    <text>Contact: {{recycler.contact}}</text>
+    <text>Hours: {{recycler.hours}}</text>
+    <text>Needs: {{recycler.needs}}</text>
+    <button class="message">Leave a message</button>
+  </view>
+</view>

@@ -16,7 +16,7 @@
       </text>
     </view>
     <view class='detail'>
-      <image src='../../images/right.png'></image>
+      <navigator url='/pages/RecycleDetail/recycle-detail?recycler={{currentItem._id}}'><image src='../../images/right.png'></image></navigator>
     </view>
   </view>
 </view>

@@ -1,1 +1,19 @@
 /* pages/RecycleDetail/recycle-detail.wxss */
+.recycle-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.recycle-detail .picture {
+  width: 100%;
+}
+
+.recycle-detail .content {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 20px;
+}
+
+.recycle-detail .message {
+  margin-top: 20px;
+}

@@ -1,18 +1,28 @@
 // pages/RecycleDetail/recycle-detail.js
+let util = require('../../utils/util');
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    recycler: {}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    let me = this;
+    let url = util.dbUrl + '/recyclers/' + options.recycler;
+    wx.request({
+      url: url,
+      success: (resp) => {
+        me.setData({
+          recycler: resp.data
+        })
+      }
+    })
   },
 
   /**
