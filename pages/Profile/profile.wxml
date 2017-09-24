@@ -39,5 +39,4 @@
       <image bindtap='toggleLike' data-friend="{{item}}" class='like' src="{{item.like ? '../../images/like_solid.png' : '../../images/like_outline.png'}}"></image>
     </view>
 
-
 </view>
