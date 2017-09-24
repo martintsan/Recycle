@@ -1,4 +1,4 @@
-const couchdbUrl = "http://cdb.rubinek.com/"
+const couchdbUrl = "http://cdb.rubinek.com"
 
 const formatTime = date => {
   const year = date.getFullYear()

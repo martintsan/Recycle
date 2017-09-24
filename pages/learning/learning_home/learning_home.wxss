@@ -1,0 +1,115 @@
+/* pages/learning/learning_home/learning_home.wxss */
+
+
+.header-image {
+  height: 150px;
+  width: 100%;
+}
+
+.content {
+  margin: 10px;
+}
+
+.block-wrapper {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.recycling-basics-block {
+  height: 78px;
+  width: 100%;
+  background-color: #4A90E2;
+  text-align: center;
+}
+
+.thumbnail-text {
+  margin-top: -10px;
+  font-size: 12px;
+  color: #828282;
+}
+
+.learning-3-block {
+  display: inline-block;
+  width: 33.33%;
+  margin-top: 3px;
+  vertical-align:top;
+}
+
+.recycling-3-block-wrapper {
+  height: 78px;
+  padding: 3px;
+}
+
+.recycling-3-block {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  text-align:center;
+}
+
+.plastics {
+  background-color: #50E3C2;
+}
+
+.cardboard {
+  background-color: #8B572A;
+}
+
+.electronics {
+  background-color: #F5A623;
+}
+
+.organics {
+  background-color: #417505;
+}
+
+.clothing {
+  background-color: #9013FE;
+}
+
+.furniture {
+  background-color: #4A4A4A;
+}
+
+.thumbnail-sign-recycle {
+  height: 57px;
+  width: 56px;
+  padding-top:11px;
+}
+
+.thumbnail-sign-plastics {
+  height: 54px;
+  width: 22px;
+  padding-top: 12px;
+}
+
+.thumbnail-sign-cardboard {
+  height: 58px;
+  width: 49px;
+  padding-top: 10px;
+}
+
+.thumbnail-sign-electronics {
+  height: 55px;
+  width: 55px;
+  padding-top: 12px;
+}
+
+.thumbnail-sign-organics {
+  height: 51px;
+  width: 51px;
+  padding-top: 14px;
+}
+
+.thumbnail-sign-clothes {
+  height: 59px;
+  width: 53px;
+  padding-top: 9px;
+}
+
+.thumbnail-sign-furniture {
+  height: 55px;
+  width: 57px;
+  padding-top: 12px;
+}

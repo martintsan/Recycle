@@ -1,0 +1,24 @@
+/* pages/learning/learning_pages/learning_basics/learning_basics.wxss */
+
+.header-image {
+  height: 150px;
+  width: 100%;
+  background-color: #8B572A;
+}
+
+.thumbnail-sign {
+  height: 80px;
+  width: 76px;
+  padding: 40px 30px;
+}
+
+.content {
+  margin: 12px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #626262;
+}
+
+.title {
+  font-size: 24px;
+}

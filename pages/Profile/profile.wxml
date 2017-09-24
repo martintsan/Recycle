@@ -26,17 +26,17 @@
   
   <text class='bold'>Your ReCyCling friends</text>
 
-    <view class="usr-profile grey-color">
-      <image class="friend-img" src="{{ avatarUrl }}"></image>
-      <text class='bold'>{{ nickName }}</text>
-   
-    <view class="stats">
-        <view class='level'>
-          <text class="bold">Level 6</text>
-          <text>3200 points</text>
+    <view class="list usr-profile grey-color" wx:for="{{friends}}">
+      <image class="friend-img" src="{{ item.avatarUrl }}"></image>
+      <view class='profile-detail'>
+        <text class='bold'>{{ item.name }}</text>
+        <view>
+            <view class='level'>
+              <text>{{item.level}}</text>        
+            </view>
         </view>
+      </view>
+      <image bindtap='toggleLike' data-friend="{{item}}" class='like' src="{{item.like ? '../../images/like_solid.png' : '../../images/like_outline.png'}}"></image>
     </view>
-    </view>
-<button><image src="http://owrocxzui.bkt.clouddn.com/like%20outline.png" width="24px"></image></button>
 
 </view>

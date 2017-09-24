@@ -1,0 +1,81 @@
+<!--pages/learning/learning_home/learning_home.wxml-->
+
+
+<!-- Header -->
+<image src='../../../../images/learning_header.png' class='header-image' ></image>
+
+
+<!-- Content -->
+<view class='content'>
+
+  <!-- Recycling Basics -->
+  <view>
+    <view class='recycling-basics-block'>
+      <navigator url="../../learning/learning_pages/learning_basics/learning_basics"><image class='thumbnail-sign-recycle' src='../../../../images/recycle_sign.png'></image></navigator>
+    </view>
+    <text class='thumbnail-text'>Recycling Basics</text>
+  </view>
+
+  <!-- Recycling Specifics -->
+  <view class='block-wrapper'>
+
+    <view class='learning-3-block'>
+      <view class='recycling-3-block-wrapper'>
+        <view class='recycling-3-block plastics'>
+          <navigator url="../../learning/learning_pages/learning_plastics/learning_plastics"><image class='thumbnail-sign-plastics' src='../../../../images/plastics_sign.png'></image></navigator>
+        </view>
+        <text class='thumbnail-text'>Plastics</text>
+      </view>
+    </view>
+
+    <view class='learning-3-block'>
+      <view class='recycling-3-block-wrapper'>
+        <view class='recycling-3-block cardboard'>
+          <navigator url="../../learning/learning_pages/learning_cardboard/learning_cardboard"><image class='thumbnail-sign-cardboard' src='../../../../images/cardboard_sign.png'></image></navigator>
+        </view>
+        <text class='thumbnail-text'>Cardboard</text>
+      </view>
+    </view>
+
+    <view class='learning-3-block'>
+      <view class='recycling-3-block-wrapper'>
+        <view class='recycling-3-block electronics'>
+          <image class='thumbnail-sign-electronics' src='../../../../images/electronics_sign.png'></image>
+        </view>
+        <text class='thumbnail-text'>Electronics</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='block-wrapper'>
+    <view class='learning-3-block'>
+      <view class='recycling-3-block-wrapper'>
+        <view class='recycling-3-block organics'>
+          <image class='thumbnail-sign-organics' src='../../../../images/organics_sign.png'></image>
+        </view>
+        <text class='thumbnail-text'>Organics</text>
+      </view>
+    </view>
+
+    <view class='learning-3-block'>
+      <view class='recycling-3-block-wrapper'>
+        <view class='recycling-3-block clothing'>
+          <image class='thumbnail-sign-clothes' src='../../../../images/clothes_sign.png'></image>
+        </view>
+        <text class='thumbnail-text'>Clothing</text>
+      </view>
+    </view>
+
+    <view class='learning-3-block'>
+      <view class='recycling-3-block-wrapper'>
+        <view class='recycling-3-block furniture'>
+          <image class='thumbnail-sign-furniture' src='../../../../images/furniture_sign.png'></image>
+        </view>
+        <text class='thumbnail-text'>Furniture</text>
+      </view>
+    </view>
+
+
+  </view>
+
+</view>

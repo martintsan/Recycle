@@ -10,6 +10,7 @@ progress {
   margin: 0 0 5px 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  width: 100%;
 }
 
 /* -------- images ------- */
@@ -22,7 +23,7 @@ progress {
 .friend-img {
   width: 70px;
   height: 70px;
-  margin: 10px;
+  margin: 10px 10px 10px 0;
   border-radius: 50%;
 }
 
@@ -64,12 +65,33 @@ progress {
   float: right;
   font-size: 14px;
 }
-.btn-like {
-  color: white; 
-  width: 24px;
-  height: 24px;
-}
+
 .twoboxes {
   display: flex;
   flex-direction: row;
+}
+
+.list {
+  float:left;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.profile-detail {
+  font-size: 14px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-detail .bold {
+  font-size: 16px;
+}
+
+.like {
+  width: 20px;
+  height: 20px;
+  text-align: right;
+  margin: 30px 0 30px 30px;
 }

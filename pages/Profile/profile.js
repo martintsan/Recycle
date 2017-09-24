@@ -5,6 +5,18 @@ Page({
    * 页面的初始数据
    */
   data: {
+    friends: [{
+      id: 1,
+      name: "Martin",
+      like: true,
+      avatarUrl: 'http://wx.qlogo.cn/mmhead/niczpHRtM046EFJYDGcrj57bWCzxdQMY1RhmR52sIOVk/132',
+      level: 'Level 6 - 3200 points'
+    }, {
+      id: 2,
+      name: "Stanton",
+      like: false,
+      level: "Level 3 - 1800 points"
+    }],
     avatarUrl: null,
     nickName: null
   },
@@ -74,6 +86,15 @@ Page({
           avatarUrl: res.userInfo.avatarUrl
         })
       }
+    })
+  },
+
+  toggleLike: function(e) {
+    let friend = e.currentTarget.dataset.friend;
+    friend.like = !friend.like;
+    this.data.friends[friend.id - 1] = friend;
+    this.setData({
+      friends: this.data.friends
     })
   }
 })

@@ -1,0 +1,31 @@
+<!--pages/learning/learning_pages/learning_basics/learning_basics.wxml-->
+
+<!-- Header -->
+<view class='header-image' >
+  <image class='thumbnail-sign-recycle' src='../../../../../images/recycle_sign.png'></image>
+</view>
+
+<view class='content'>
+
+  <text class='title'>Recycling Basics
+  </text>
+
+  <text>
+    At its core, a material economy, the informal sector divides waste into a few essential categories – with di erent subtypes, prices, and end-of-life treatments. The informal sector relies on accurate pricing set by material processing factories, which rely on international and domestic material commodity prices. Once set by factories, actors relay price adjustments and information all the way down the chain to informal collectors.
+  </text>
+
+  <text>
+At each stage, prices are altered based on the size, capacity, and pro t-making ambitions of key actors in the system.
+  </text>
+
+  <text>
+Impacted by a number of factors, including domestic stockpiling and investments, seasonal manufacturing activity, and scarcity of virgin materials, upward pricing pressure on informal prices will catalyze demand for recycled material, and incentivize collectors to capture these wastes for processing.
+  </text>
+
+  <text>
+As collectors o en develop a preference for certain materials based on price and market demand, these prices have a direct impact on the activity of collectors within the informal system. For example, collectors will ask for payment for the removal of iron, yet pay actors for paper and cardboard – materials in high demand due to the rise of e-commerce and growing need for packaging.
+  </text>
+  <text>In times of recession, such as in 2008, activity of collectors
+is impacted considerably as material prices decrease to the point that they are not even worth collecting. While this is a rare occurrence within the waste market, it is proof of the clear impact that global and domestic commodity markets have on "on-street" activity.
+  </text>
+</view>

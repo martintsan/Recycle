@@ -1,0 +1,25 @@
+<!--pages/learning/learning_pages/learning_basics/learning_plastics.wxml-->
+
+<!-- Header -->
+<view class='header-image' >
+  <image class='thumbnail-sign' src='../../../../../images/plastics_sign.png'></image>
+</view>
+
+<view class='content'>
+
+  <text class='title'>Recycling Plastics</text>
+
+  <text>
+   Plastic bottles, bags, and containers are collected frequently in the informal sector and like paper and cardboard, plastics are one of the materials of highest value to the informal sector.
+  </text>
+
+  <text>
+Unlike paper and cardboard, Informal collectors will only take a material if it is clean and deemed valuable. A er being sent to a collection centre, small or large, a waste transportation company will send sorted materials to a waste compression facility, which will then  a en the plastic bails into manageable cubes to be processed.
+  </text>
+
+  <text>
+Following this step, the cubes will then be
+sent to factories and recycling centres, where the plastics will be ground and melted. The process requires  ve to 10 days from beginning to end for materials in the Shanghai region.
+  </text>
+
+</view>
